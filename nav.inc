@@ -1,0 +1,23 @@
+<nav id="nav">
+<div class="nav_inner">
+<ul class="css_hover_nav din_bold">
+
+<li class="active" data-type="index"><a href="/" class="js-pjax">ABOUT US</a></li>
+<li><a href="/services.html" class="js-pjax">SERVICE</a></li>
+<li><a href="/works.html" class="js-pjax">WORKS</a></li>
+<li><a href="/members.html" class="js-pjax">MEMBER</a></li>
+<li><a href="/recruit.html" class="js-pjax">RECRUIT</a></li>
+<li><a href="/contact.html" class="js-pjax">CONTACT</a></li>
+<li><a href="/news">NEWS</a></li>
+</ul>
+
+<div class="facebook onlySp js-facebook_news">
+<div class="logo"><a href="https://www.facebook.com/kickworld7/" target="_blank"><img src="./img/top_icon_fb.svg" alt="facebook"></a></div>
+<p><a href="" target="_blank">
+<span class="date din_light"></span>
+<span class="txt yugo"></span>
+</a></p>
+</div><!-- /facebook -->
+
+</div><!-- /nav_inner -->
+</nav><!-- /nav -->

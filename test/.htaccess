@@ -1,0 +1,22 @@
+#ssi
+Options +IncludesNOEXEC
+AddHandler server-parsed .html
+
+#ベーシック認証
+AuthUserfile /home/kick01/www/test/.htpasswd
+AuthGroupfile /dev/null
+AuthName "http://kick-test.tank.jp/"
+AuthType Basic
+require valid-user
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
